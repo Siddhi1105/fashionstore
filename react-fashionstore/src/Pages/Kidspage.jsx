@@ -7,7 +7,7 @@ import kid2 from '../img/kidsimg1.jpg';
 import kid3 from '../img/kidsimg2.jpg';
 import kid4 from '../img/kidsimg3.jpg';
 
-function Kids() {
+function Kidspage() {
     return(
         <div>
             
@@ -141,4 +141,4 @@ function Kids() {
 
 );
 }
-export default Kids;
+export default Kidspage;

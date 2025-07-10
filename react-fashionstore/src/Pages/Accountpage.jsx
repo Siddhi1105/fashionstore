@@ -1,35 +1,36 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function Accountpage()
-{
-    return(
-        <div>
-            
-       <div className="acbody" >
-        <h1 >Fashion Store</h1>
-          <br/>
-          
-        <form to='/Landingpage' class="acbox" >
+function Accountpage() {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Add login logic or redirect here
+  };
+
+  return (
+    <div>
+      <div className="acbody">
+        <h1>Fashion Store</h1>
+        <br />
+
+        <form className="acbox" onSubmit={handleSubmit}>
           <h3>Login</h3>
-          <label for="Username" ></label>
+          <label htmlFor="Username"></label>
           <input type="text" id="Username" placeholder="Username or email" required />
-          <br/>
-          <br/>
+          <br />
+          <br />
 
-          <label for="Password"></label>
-          <input type="password" id="Password" placeholder="Enter you password" required />
-          <br/>
-          <br/>
+          <label htmlFor="Password"></label>
+          <input type="password" id="Password" placeholder="Enter your password" required />
+          <br />
+          <br />
 
-          
-          <button type="Submit;" className="acbutton">Log in</button>
+          <button type="submit" className="acbutton">Log in</button>
           <p className="acp">New User <Link to="/signup"> Sign up</Link></p>
-          </form>
-       </div>
-
-
-        </div>
-    )
+        </form>
+      </div>
+    </div>
+  );
 }
+
 export default Accountpage;

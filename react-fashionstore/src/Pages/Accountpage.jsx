@@ -10,7 +10,7 @@ function Accountpage()
         <h1 >Fashion Store</h1>
           <br/>
           
-        <form action="./SouledStore.html" class="acbox" >
+        <form to='/Landingpage' class="acbox" >
           <h3>Login</h3>
           <label for="Username" ></label>
           <input type="text" id="Username" placeholder="Username or email" required />

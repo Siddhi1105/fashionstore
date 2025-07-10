@@ -38,9 +38,9 @@ function Femalepage()
                               TOPWEAR
                             </Link>
                             <ul className="dropdown-menu">
-                            <li><Link className="dropdown-item" to="/topwear">All Toopwears</Link></li>
-                            <li><Link className="dropdown-item" to="/jeans">Jeans</Link></li>
-                            <li><Link className="dropdown-item" to="/pants">Pants</Link></li>
+                            <li><Link className="dropdown-item" to="#">All Toopwears</Link></li>
+                            <li><Link className="dropdown-item" to="#">Jeans</Link></li>
+                            <li><Link className="dropdown-item" to="#">Pants</Link></li>
                             </ul>
                             </li>
                              
